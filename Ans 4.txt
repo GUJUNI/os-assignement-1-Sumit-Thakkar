@@ -1,0 +1,18 @@
+Name: Thakkar Sumit Lalitkumar
+Roll no: 35
+Subject: operating System
+Course: MCA - II
+Assignment: 2
+-----------------------------------------------------------------------------
+4. Write a script that takes file name from user and substitute all spaces
+“ “ with # value. (Use grep/sed)
+-----------------------------------------------------------------------------
+echo "enter file"
+read file
+sed -i 's/ /#/g' $file
+
+output:-
+[mca2235@agni ~]$ cat a4
+#####hi
+hello
+#how#are#you
